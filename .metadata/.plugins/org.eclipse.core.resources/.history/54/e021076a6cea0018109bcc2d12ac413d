@@ -1,0 +1,10 @@
+package com.pedropaiva.cursojava.aula11;
+
+public class Curiosidadeint {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
