@@ -1,0 +1,11 @@
+package com.pedropaiva.operacoesaritimeticasbasicas;
+
+public class Gasolina implements Combustivel {
+
+	@Override
+	public void abastecer() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

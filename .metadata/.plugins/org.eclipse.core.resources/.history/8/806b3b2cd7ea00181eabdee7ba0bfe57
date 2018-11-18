@@ -1,0 +1,52 @@
+package com.pedropaiva.mercadopaiva;
+
+import java.util.Scanner;
+
+public class FolhaDePagamento {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		
+		String nome;
+		
+		System.out.println("Nome do Funcionario: ");
+		nome = scan.nextLine();
+		
+		System.out.println("Dias Trabalhados: ");
+		int diasTrabalhados = scan.nextInt();
+		
+		System.out.println("Comisao: ");
+		double comisao = scan.nextDouble();
+		
+		double inss = 0.08;
+		
+		double diaDoServiço = 52.50;
+		
+		double valordoSalarioBruto = diasTrabalhados * diaDoServiço;
+		
+		double valorComisao = valorSalarioBruto * comisao;
+		
+		double valordoSalarioLiquido = valorComisao - inss;
+		
+		System.out.println("Nome do Funcionario: " + nome);
+		
+		System.out.println("Dias Trabalahados: " + diasTrabalhados);
+		
+		valorComisao = scan.nextDouble();
+		System.out.println("Valor de Comisao: " + valorComisao);
+		
+		valordoSalarioLiquido = scan.nextDouble();
+		System.out.println("Valor Salario Liquido: " + valordoSalarioLiquido);
+		
+		valordoSalarioBruto = scan.nextDouble();
+		System.out.println("Valor Salario Bruto: " + valordoSalarioBruto);
+		
+		
+		
+		
+		
+
+	}
+
+}

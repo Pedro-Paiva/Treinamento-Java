@@ -1,0 +1,37 @@
+package com.pedropaiva.cursojava.aula12;
+
+import java.util.Scanner;
+
+public class LeituraDadosTeclado {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		
+		/*System.out.println("digite seu nome completo:");
+		String nomeCompleto = scan.nextLine();
+		System.out.println("Seu nome completo e: " + nomeCompleto);
+		
+		System.out.println("Digite seu primeiro nome:");
+		String primeiroNome = scan.next();
+		System.out.println("Seu primeiro nome e: " + primeiroNome);
+		
+		System.out.println("Digite a sua idade: ");
+		int idade = scan.nextInt();
+		System.out.println("Sua idade e: " + idade );*/
+		
+		System.out.println("Digite o valor de a + b");
+		int valor1 = scan.nextInt();
+		int valor2 = scan.nextInt();
+		System.out.println("Soma e: " + valor1 + valor2);
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

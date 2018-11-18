@@ -1,0 +1,5 @@
+package com.pedropaiva.operacoesaritimeticasbasicas;
+
+public interface Combustivel {
+
+}

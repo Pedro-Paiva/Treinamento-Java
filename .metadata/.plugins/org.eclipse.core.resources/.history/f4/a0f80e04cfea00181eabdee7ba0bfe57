@@ -1,0 +1,8 @@
+package com.pedropaiva.operacoesaritimeticasbasicas;
+
+public class CarroFlex {
+
+	public void abastecer(Combustivel combustivel){
+		System.out.println("Carro abastecido com : " + combustivel.);
+	}
+}
